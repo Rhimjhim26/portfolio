@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhimjhim | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Rhimjhim<span>.</span></a>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Toggle navigation">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content reveal">
+            <p class="welcome">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Rhimjhim</span></h1>
+
+            <h2>I'm a <span id="typing">Web Developer</span></h2>
+
+            <p>
+                I am a BCA student specializing in Artificial Intelligence.
+                I enjoy coding, designing responsive websites and learning
+                new technologies.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">Explore Projects ↗</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image reveal">
+            <!-- Put your picture inside the images folder -->
+            <img src="C:\Users\rimjh\Downloads\internship jpg.jpeg">
+                 alt="Rhimjhim"
+                 onerror="this.style.display='none';
+                 document.getElementById('photoFallback').style.display='grid'">
+
+            <div id="photoFallback" class="photo-fallback">
+                R
+                <small>"C:\Users\rimjh\Downloads\internship jpg.jpeg"</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about reveal" id="about">
+        <p class="subtitle">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+
+        <p>
+            I am pursuing BCA with a specialization in Artificial Intelligence
+            at United University, Prayagraj. I am interested in web development,
+            Python programming, databases and project management.
+
+            I want to build useful projects, improve my problem-solving skills
+            and grow as a developer.
+        </p>
+
+        <div class="about-details">
+            <p><strong>Education:</strong> BCA (Artificial Intelligence)</p>
+            <p><strong>University:</strong> United University, Prayagraj</p>
+            <p><strong>Duration:</strong> 2025–2028</p>
+            <p><strong>Email:</strong> rimjhimpandey544@gmail.com</p>
+        </div>
+    </section>
+
+    
+<!-- SKILLS SECTION -->
+<section class="section skills-section" id="skills">
+
+    <p class="subtitle">MY TECHNICAL EXPERTISE</p>
+    <h2>My <span>Skills</span></h2>
+
+    <p class="skills-intro">
+        Technologies and tools I use to learn, create and build projects.
+    </p>
+
+    <div class="skills-container">
+
+        <div class="skill-card python">
+            <div class="skill-icon">🐍</div>
+            <h3>Python</h3>
+            <p>Programming & Problem Solving</p>
+            <div class="skill-bar">
+                <span style="--level: 75%"></span>
+            </div>
+            <div class="skill-info">
+                <span>Learning Progress</span>
+                <span>75%</span>
+            </div>
+        </div>
+
+        <div class="skill-card management">
+            <div class="skill-icon">📊</div>
+            <h3>Project Management</h3>
+            <p>Planning & Team Coordination</p>
+            <div class="skill-bar">
+                <span style="--level: 70%"></span>
+            </div>
+            <div class="skill-info">
+                <span>Learning Progress</span>
+                <span>70%</span>
+            </div>
+        </div>
+
+        <div class="skill-card sql">
+            <div class="skill-icon">🗄️</div>
+            <h3>SQL</h3>
+            <p>Queries & Database Management</p>
+            <div class="skill-bar">
+                <span style="--level: 70%"></span>
+            </div>
+            <div class="skill-info">
+                <span>Learning Progress</span>
+                <span>70%</span>
+            </div>
+        </div>
+
+        <div class="skill-card html">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML</h3>
+            <p>Web Page Structure</p>
+            <div class="skill-bar">
+                <span style="--level: 85%"></span>
+            </div>
+            <div class="skill-info">
+                <span>Learning Progress</span>
+                <span>85%</span>
+            </div>
+        </div>
+
+        <div class="skill-card css">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS</h3>
+            <p>Responsive Design & Animation</p>
+            <div class="skill-bar">
+                <span style="--level: 75%"></span>
+            </div>
+            <div class="skill-info">
+                <span>Learning Progress</span>
+                <span>75%</span>
+            </div>
+        </div>
+
+        <div class="skill-card javascript">
+            <div class="skill-icon"></div>
+            <h3>JavaScript</h3>
+            <p>Interactive Web Development</p>
+            <div class="skill-bar">
+                <span style="--level: 60%"></span>
+            </div>
+            <div class="skill-info">
+                <span>Learning Progress</span>
+                <span>60%</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section class="section projects reveal" id="projects">
+        <p class="subtitle">MY WORK</p>
+        <h2>My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <article class="project-card">
+                <img src="images/attendance.jpg"
+                     alt="Smart Attendance project"
+                     onerror="this.style.display='none'">
+                <h3>Smart Attendance System</h3>
+                <p>
+                    A student attendance management website concept
+                    with registration, attendance and reports.
+                </p>
+                <div class="tags">HTML · CSS · JavaScript · Python</div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/swasthai.jpg"
+                     alt="SwasthAI project"
+                     onerror="this.style.display='none'">
+                <h3>SwasthAI Assistant</h3>
+                <p>
+                    An AI health-information assistant concept that
+                    helps users understand medicine information.
+                </p>
+                <div class="tags">Python · AI · OCR</div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/sales.jpg"
+                     alt="Sales analysis project"
+                     onerror="this.style.display='none'">
+                <h3>Sales Data Analysis</h3>
+                <p>
+                    A practice project for exploring data,
+                    analysing trends and presenting insights.
+                </p>
+                <div class="tags">Python · SQL · Charts</div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact reveal" id="contact">
+        <p class="subtitle">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+
+        <p>Have a project idea? Send me a message!</p>
+
+        <form id="contactForm">
+            <input type="text" id="name"
+                   placeholder="Your full name" required minlength="2">
+
+            <input type="email" id="email"
+                   placeholder="Your email address" required>
+
+            <textarea id="message"
+                      placeholder="Write your message"
+                      required minlength="10"></textarea>
+
+            <p id="formStatus" aria-live="polite"></p>
+
+            <button type="submit" class="btn">Send Message ↗</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© <span id="year"></span> Rhimjhim| Made with ❤️</p>
+    </footer>
+
+    <button id="topBtn" aria-label="Back to top">↑</button>
+
+</body>
+</html>
